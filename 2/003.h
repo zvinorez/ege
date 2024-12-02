@@ -18,4 +18,4 @@ inline void task() {
     }
 }
 
-// Ответ: yxzw
+// Ответ: yxwz
