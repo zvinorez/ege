@@ -18,10 +18,10 @@
 
 
 inline void task() {
-    auto alphabet = 26+26+10+6;
+    auto alphabet = 26 + 26 + 10 + 6;
     auto ch = ceil(log2(alphabet));
     auto pass = ceil(ch * 9 / 8);
-    std::cout << 500/20-pass << std::endl;
+    std::cout << 500 / 20 - pass << std::endl;
 }
 
 // Ответ: 17

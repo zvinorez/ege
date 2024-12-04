@@ -14,10 +14,11 @@
 // 28 байтов данных. Сколько байтов занимает дополнительная информация?
 // Примечание: в латинском алфавите 26 букв
 
+
 inline void task() {
     auto alphabet = 26 + 26 + 10;
     auto ch = ceil(log2(alphabet));
-    auto np = ceil(log2(120)/8);
+    auto np = ceil(log2(120) / 8);
     auto lk = ceil(ch * 11 / 8);
     std::cout << 28 - np - lk;
 }
