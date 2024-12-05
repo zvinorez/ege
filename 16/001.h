@@ -17,3 +17,4 @@ int f(int n) {
 inline void task() {
     std::cout << f(7) << std::endl;
 }
+// Ответ: 144
