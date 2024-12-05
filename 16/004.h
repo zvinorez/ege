@@ -9,7 +9,7 @@
 // В качестве ответа на задание выведите значение F(10 000) − F(9 995).
 
 
-int f(int n) {
+inline int f(int n) {
     if (n <= 3) return n;
     if (n % 2 == 1) return 2 * n + f(n - 2);
     return n * n + f(n - 1);
