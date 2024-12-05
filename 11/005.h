@@ -18,8 +18,8 @@
 inline void task() {
     auto alphabet = 26 + 26 + 10;
     auto ch = ceil(log2(alphabet));
-    auto np = ceil(log2(120) / 8);
     auto lk = ceil(ch * 11 / 8);
+    auto np = ceil(log2(120) / 8);
     std::cout << 28 - np - lk;
 }
 
