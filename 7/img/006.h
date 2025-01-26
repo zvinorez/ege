@@ -7,4 +7,4 @@ inline void task() {
     std::cout << pow(2, static_cast<int>(210 * pow(2, 13) / (1024 * 120) - 7));
 }
 
-// Ответ:
+// Ответ: 128
