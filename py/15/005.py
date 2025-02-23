@@ -10,6 +10,7 @@ def f(x):
 for a in range(1, 5000):
     if all(f(x) for x in range(1, 5000)):
         m.append(a)
+        break
 print(min(m))
 
 # Ответ: 2
