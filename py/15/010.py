@@ -11,8 +11,9 @@ def f(x):
     C = x in c
     return (B <= (not C)) or A
 
+
 for x in range(5000):
-    if f(x)==0:
+    if f(x) == 0:
         a.add(x)
 print(sum(a))
 

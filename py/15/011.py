@@ -13,7 +13,7 @@ def f(x):
 
 
 for x in range(1000):
-    if f(x)==0:
+    if f(x) == 0:
         a.remove(x)
 print(len(a))
 
